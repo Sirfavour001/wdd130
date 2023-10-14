@@ -27,11 +27,13 @@
    h1 {
      color: rgb(63, 60, 36);
      background-color: rgb(0, 0, 0, 0.5);
+     font-size: 40px;
     
    }
 
    p {
      padding: 10px;
+     font-size: larger;
    }
 
    .logo{
@@ -53,8 +55,8 @@
    }
  
    .hero> img{
-     width: 70vw;
-     height: 400px;
+     width: 90vw;
+     height: 500px;
      
    }
 
@@ -69,11 +71,11 @@
    .chief{
       position: absolute;
       text-align: center;
-      top: 80px;
+      top: 100px;
       left: 100px;
      display: flex;
-     width: 60%;
-     height: 120px;
+     width: 85%;
+     height: 150px;
      background-color: rgba(0, 0, 255, 0.2);
      color: rgb(255, 255, 255);
  
@@ -81,22 +83,37 @@
  
  .left-chief{
    display: flex;
-   width: 70%;
+   width: 190%;
+   font-size: larger
  
  }
 
  .right-chief{
   display: flex;
-  width: 30%;
-  height: 100px;
+  width: 40%;
+  height: 140px;
   padding-top: 10px;
   padding-left: 20px;
  }
 
- section>img{
-  display: block;
-  height: 300px;
-  width: 400px;
+ .lower-bottom{
+  display: flex;
+ }
+
+ .one>img{
+  height: 200px;
+  width: 250px;
+  padding-right: 15px;
+  
+ }
+
+ .sociallinks{
+  position: absolute;
+  right: 100px;
+ }
+
+ footer p {
+  text-align: center;
  }
 
  .social{
@@ -105,5 +122,54 @@
   border-radius: 50%;
   text-align: center;
  }
+ header {
+	display: grid;
+	grid-template-columns: 150px 20fr 20fr;
+  margin-bottom: 10px;
+	max-width: 1200px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
 
- 
+
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 200px;
+    background-color: whitesmoke;
+    border: 1px solid red;
+    height: 55px;
+    
+  }
+
+  .ref{
+    display: flex;
+    position: relative;
+    border: 1px solid red;
+   
+   
+  }
+
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 30px;
+  font-size: larger;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
