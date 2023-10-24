@@ -198,6 +198,7 @@ h2 {
   background-color: blue;
   color: white;
   font-size: larger;
+ margin-right: 10px;
 }
   input[type="text"],textarea,.submit{
     width:100%;
@@ -205,4 +206,23 @@ h2 {
   }
   textarea{
     height:90px;
+  }
+  .reserve {
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(61, 59, 59);
+    font-style: italic;
+  }
+  .onel {
+    padding-left: 110px;
+    padding-top: 60px;
+  }
+  .write {
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(61, 59, 59);
+    font-style: italic;
+    border: 3px solid white;
+
   }
